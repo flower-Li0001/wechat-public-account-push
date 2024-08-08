@@ -19,13 +19,13 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小宝贝——1',
+      name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ovqsQ67JaMnh2JLE1rEafWZl6GlE'
+      id: 'ovqsQ67JaMnh2JLE1rEafWZl6GlE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '24x3wdp_wmsmMoEeqm51z_F49rn9MBPcKy5LccCL4ro',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '3-17',
+      horoscopeDate: '03-17',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -44,12 +44,11 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2024-06-09' },
         // 结婚纪念日
-       // { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
 
-  
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'L1cm090tbRlQRE74rO7X7E9ZtrvwO4YOxRnPg2vYCMg',
