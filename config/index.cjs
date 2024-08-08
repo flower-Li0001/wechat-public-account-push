@@ -16,56 +16,39 @@ const USER_CONFIG = {
   PROVINCE: '河北',
   CITY: '沧州',
 
-# 模板消息id
-"template_id": "24x3wdp_wmsmMoEeqm51z_F49rn9MBPcKy5LccCL4ro",
-# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-"user": ["ovqsQ67JaMnh2JLE1rEafWZl6GlE","ovqsQ68EZN0yOdBn9jClph20LxIQ"],
+  USERS: [
+    {
+      // 想要发送的人的名字
+      name: '小宝贝——1',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'ovqsQ67JaMnh2JLE1rEafWZl6GlE'
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '24x3wdp_wmsmMoEeqm51z_F49rn9MBPcKy5LccCL4ro',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '3-17',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '李四', year: '1996', date: '09-31',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2024-06-09' },
+        // 结婚纪念日
+       // { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+    },
+  ],
 
-
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  # 信息配置
-# 和风天气apikey
-"weather_key": "",
-# 天行数据apikey
-"tian_api": "",
-# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
-"region": "番禺区",
-# 生日1，在日期前加r代表农历生日
-"birthday1": {"name": "小宝", "birthday": "1997-01-01"},
-# 生日2
-"birthday2": {"name": "小林", "birthday": "r1997-01-01"},
-# 纪念日1，会计算累计时间，格式"YYYY-MM-DD"
-"commemoration_day1": "2021-01-01",
-# 纪念日2，同上
-"commemoration_day2": "2021-01-01",
-# 金句中文，留空默认显示金山的每日金句
-"note_ch": "",
-# 金句英文
-"note_en": "",
-# 字体颜色:使用RGB颜色(如#000000黑色)，留空颜色默认随机
-"color_date":                     "",          # 日期字体颜色
-"color_region":                   "",          # 地区字体颜色
-"color_weather":                  "",          # 天气字体颜色
-"color_temp":                     "",          # 当前温度字体颜色
-"color_wind":                     "",          # 当前风向字体颜色
-"color_note_en":                  "",          # 金句英文字体颜色
-"color_note_zh":                  "",          # 金句中文字体颜色
-"color_max_temp":                 "",          # 最高温度字体颜色
-"color_min_temp":                 "",          # 最低温度字体颜色
-"color_sunrise":                  "",          # 日出字体颜色
-"color_sunset":                   "",          # 日落字体颜色
-"color_category":                 "",          # 空气质量字体颜色
-"color_pm2p5":                    "",          # pm2.5字体颜色
-"color_proposal":                 "",          # 今日建议字体颜色
-"color_chp":                      "",          # 彩虹屁字体颜色
-"color_birthday1":                "",          # 生日1字体颜色
-"color_birthday2":                "",          # 生日2字体颜色
-"color_commemoration_day1":       "",          # 纪念日1字体颜色
-"color_commemoration_day2":       "",          # 纪念日2字体颜色
-"color_yq":                       "",          # 疫情数据字体颜色
-}
-
-  
   
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
