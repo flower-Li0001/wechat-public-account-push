@@ -45,6 +45,7 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2024-06-09' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-25' },
+        { keyword: 'birthday_message2', date: '2024-08-28' },
       ],
     },
 
@@ -76,6 +77,7 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2024-06-09' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-25' },
+        { keyword: 'birthday_message2', date: '2024-08-28' },
       ],
     },
   ],
