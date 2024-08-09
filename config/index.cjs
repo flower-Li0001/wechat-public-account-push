@@ -75,7 +75,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2024-08-08' },
         // 倒计日
-        { keyword: 'birthday_message', date: '2024-12-21' },
+        { keyword: 'birthday_message', date: '2024-12-25' },
       ],
     },
   ],
