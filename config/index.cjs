@@ -73,7 +73,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2024-06-09' },
+        { keyword: 'love_day', date: '2024-08-08' },
         // 倒计日
         { keyword: 'birthday_message', date: '2024-12-21' },
       ],
