@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ovqsQ64Jk2WiV0VgHAbue9LnEZbg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ro1H6UCawyk4B4oOO6S_9aPd8yoQN8AHCusooQRoLQs',
+      useTemplateId: '9RoOe4RzCd3ti6YsIj7q2mi9k27-U_TrzVLSf-srEQA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-17',
       festivals: [
@@ -45,7 +45,7 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2024-06-09' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-21' },
-        { keyword: 'birthday_message2', date: '2024-08-25' },
+        { keyword: 'birthday_message2', date: '2024-08-29' },
       ],
     },
 
@@ -55,7 +55,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'ovqsQ68EZN0yOdBn9jClph20LxIQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'ro1H6UCawyk4B4oOO6S_9aPd8yoQN8AHCusooQRoLQs',
+      useTemplateId: '9RoOe4RzCd3ti6YsIj7q2mi9k27-U_TrzVLSf-srEQA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '03-17',
       festivals: [
@@ -77,7 +77,7 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2024-06-09' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-21' },
-        { keyword: 'birthday_message2', date: '2024-08-25' },
+        { keyword: 'birthday_message2', date: '2024-08-29' },
       ],
     },
   ],
