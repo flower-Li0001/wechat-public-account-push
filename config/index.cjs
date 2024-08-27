@@ -14,14 +14,14 @@ const USER_CONFIG = {
   APP_SECRET: '8e37baf885b6f20f2cb3e3656e2f9a13',
 
   PROVINCE: '河北',
-  CITY: '沧州',
+  CITY: '石家庄',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ovqsQ64Jk2WiV0VgHAbue9LnEZbg',
+      id: '1111ovqsQ64Jk2WiV0VgHAbue9LnEZbg',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '5W-6bMl__55lTY9DVSlZsm8RE6uvq91a68Fnl0TYVrE',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
