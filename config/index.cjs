@@ -14,14 +14,14 @@ const USER_CONFIG = {
   APP_SECRET: '8e37baf885b6f20f2cb3e3656e2f9a13',
 
   PROVINCE: '河北',
-  CITY: '沧州',
+  CITY: '石家庄',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'ovqsQ64Jk2WiV0VgHAbue9LnEZbg',
+      id: 'ovqsQ64Jk2WiV0VgHAbue9LnEZb',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Vr6x3dw3H4wFcBCThTpXZAB0eT0Dwellvi3YbYdEPlc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -43,7 +43,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2024-06-09' },
-        { keyword: 'likai_day', date: '2025-04-16' },
+        { keyword: 'likai_day', date: '2025-04-27' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-21' },
         { keyword: 'birthday_message2', date: '2024-08-29' },
@@ -76,7 +76,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2024-06-09' },
-        { keyword: 'likai_day', date: '2025-04-16' },
+        { keyword: 'likai_day', date: '2025-04-27' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-21' },
         { keyword: 'birthday_message2', date: '2024-08-29' },
