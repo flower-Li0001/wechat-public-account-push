@@ -43,7 +43,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2024-06-09' },
-        { keyword: 'likai_day', date: '2025-05-10' },
+        { keyword: 'likai_day', date: '2025-05-13' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-21' },
         { keyword: 'birthday_message2', date: '2024-08-29' },
@@ -76,7 +76,7 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2024-06-09' },
-        { keyword: 'likai_day', date: '2025-05-10' },
+        { keyword: 'likai_day', date: '2025-05-13' },
         // 倒计日
         { keyword: 'birthday_message1', date: '2024-12-21' },
         { keyword: 'birthday_message2', date: '2024-08-29' },
